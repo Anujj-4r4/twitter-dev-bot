@@ -1,1 +1,15 @@
+{
+  "name": "twitter-dev-bot",
+  "version": "1.0.0",
+  "description": "A daily auto Twitter poster using ChatGPT content",
+  "main": "twitter_dev_bot.js",
+  "scripts": {
+    "start": "node twitter_dev_bot.js"
+  },
+  "dependencies": {
+    "twitter-api-v2": "^1.13.0",
+    "dotenv": "^16.0.3",
+    "openai": "^4.0.0"
+  }
+}
 
